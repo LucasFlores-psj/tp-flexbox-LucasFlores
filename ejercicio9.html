@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 9</title>
+   <style>
+        .cuerpo1{
+            display: flex;
+            height: 100vh;
+            padding: 20px;
+            flex-direction: row;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        .columnaizquierda {
+            flex: 2;
+            background-color: rgb(37, 80, 81);
+            padding: 12px;
+        }
+        .cuerpo2{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .columnaderechaarriba {
+            flex: 1 1 100%;
+            border: solid 0.5px;
+            justify-content: center;
+            padding: 25px;
+        }
+        .columnaderecha {
+            flex: 1 1 100%;
+            border: solid 0.5px;
+            justify-content: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <main class="cuerpo1">
+        <div class="columnaizquierda">Columna izquierda</div>
+        <div class="cuerpo2">
+            <div class="columnaderechaarriba">Derecha parte alta</div>
+            <div class="columnaderecha">Derecha parte baja</div>
+        </div>
+    </main>
+</body>
+</html>
